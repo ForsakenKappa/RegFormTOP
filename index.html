@@ -9,49 +9,48 @@
 </head>
 <body>
     <main>
-        <div id="image-container">
-            <!-- <img id="background" src="images/Gray desk.jpg" alt="Dark room iluminated with a stand lamp"> -->
-            <p> Image by <a href="https://unsplash.com/@kirklai"> kirklai </a></p>
-        </div>
-        <div id="form">
-            <h4>Note: This is not a real service but a project for <a href="https://theodinproject.com"> TOP </a> by <a href="https://github.com/ForsakenKappa"> ForsakenKappa </a></h6>
-            <h4>Header 2</h6>
+        <div class="form">
+            <h5>Note: This is not a real service but a project for <a href="https://theodinproject.com">TOP</a> by <a href="https://github.com/ForsakenKappa">ForsakenKappa</a></h6>
+            <h4>You always wanted to become a <strong>True</strong> Detective?</h6>
+            <p>Then today's your luckiest day! You can apply now to learn the mastery of investigation and deduction from the detectives best detectives of Recahol: Harry De Bois and Kim Kitsuragi!</p>
             <form action="" method="post">
 
-                <legend>Enter details to apply!</legend>
+                <h2>Apply now!</h2>
 
-                <fieldset>
+                <div>
                     <div>
-                        <label for="first-name">First Name:</label>
-                        <input type="text" id="first-name">
+                        <div class="input">
+                            <label for="first-name">First Name:</label>
+                            <input type="text" id="first-name">
+                        </div>
+                        <div class="input">
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" id="last-name">
+                        </div>
                     </div>
+                    <div class="separator"></div>
                     <div>
-                        <label for="last-name">Last Name:</label>
-                        <input type="text" id="last-name">
+                        <div class="input">
+                            <label for="phone-number">Phone Number:</label>
+                            <input type="phone" id="phone-number">
+                        </div>
+                        <div class="input">
+                            <label for="email">Email: </label>
+                            <input type="email" id="email">
+                        </div>
                     </div>
-                </fieldset>
-
-                <fieldset>
+                    <div class="separator"></div>
                     <div>
-                        <label for="phone-number">Phone Number:</label>
-                        <input type="phone" id="phone-number">
+                        <div class="input">
+                            <label for="password">Password: </label>
+                            <input type="password" id="password">
+                        </div>
+                        <div class="input">
+                            <label for="repeat-password">Repeat Password:</label>
+                            <input type="password" id="repeat-password">
+                        </div>
                     </div>
-                    <div>
-                        <label for="email">Email: </label>
-                        <input type="email" id="email">
-                    </div>
-                </fieldset>
-
-                <fieldset>
-                    <div>
-                        <label for="password">Password: </label>
-                        <input type="password" id="password">
-                    </div>
-                    <div>
-                        <label for="repeat-password">Repeat Password:</label>
-                        <input type="password" id="repeat-password">
-                    </div>
-                </fieldset>
+                </div>
 
                 <button type="submit">Submit!</button>
 
